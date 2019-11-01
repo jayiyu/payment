@@ -1,0 +1,21 @@
+{
+    "name": "xiaoy/xiaoy-payment",
+    "description": "pay",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "MIT",
+    "autoload" : {
+    	"psr-4" : {
+		  "Xiaoy\\Payment\\" : "src/"
+	   }
+    },
+    "authors": [
+        {
+            "name": "trycatch",
+            "email": "jayiyu@try.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
